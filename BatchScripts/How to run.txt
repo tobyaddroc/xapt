@@ -1,0 +1,3 @@
+1. Open ELEVATED powershell in this directory
+2. Type: & 'SCRIPTNAME'
+3. Done!

